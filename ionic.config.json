@@ -1,0 +1,7 @@
+{
+  "name": "cvJL",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
