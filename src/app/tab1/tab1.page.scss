@@ -1,0 +1,40 @@
+$principalLogo: #0B8E76;
+
+.content {
+    justify-items: center;
+    margin: auto 10px;
+
+}
+
+
+.col1 {
+    justify-items: center;
+    align-items: center;
+}
+
+.col2 {
+    justify-items: center;
+    align-items: center;
+}
+
+.row2 {
+    background-color: lawngreen
+}
+
+ion-icon {
+    color: $principalLogo;
+}
+
+.text {
+    font-size: 12px;
+    max-width: 100px;
+}
+
+.text2 {
+    font-size: 12px;
+}
+
+
+.divider {
+    border: 0.5px solid lightgray;
+}

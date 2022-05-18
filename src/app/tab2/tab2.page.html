@@ -1,7 +1,7 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" [hidden]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Experiencia Laboral
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,71 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Experiencia Laboral</ion-title>
     </ion-toolbar>
   </ion-header>
-
   <app-explore-container name="Tab 2 page"></app-explore-container>
+
+  <ion-infinite-scroll>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title><strong>Experiencia laboral</strong></ion-card-title>
+      </ion-card-header>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-text>
+          <ion-card-title>Desarrollador de aplicaciones móviles</ion-card-title>
+          <ion-card-subtitle color="primary">20/12/2021 – 20/04/2022</ion-card-subtitle>
+        </ion-text>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-label>
+          <p color="dark">Clear Minds Consultores Cia. Ltda </p>
+          <ion-text color="medium">
+            <p>Desarrollo de aplicaciones móviles con React Native</p>
+            <p>Manejo de Git y Github</p>
+            <p>Manejo de Firebase</p>
+            <p>Prototipado de aplicaciones con Figma</p>
+          </ion-text>
+        </ion-label>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-text>
+          <ion-card-title>Mensajero</ion-card-title>
+          <ion-card-subtitle color="primary">03/2019 – 11/2019 </ion-card-subtitle>
+        </ion-text>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-label>
+          <p color="dark">Servicios Contables "Gabriela Vivanco" </p>
+          <ion-text color="medium">
+            <p>Tramitación de archivos, transporte y entrega de archivos y paquetes,
+              envío de correspondencia.</p>
+
+          </ion-text>
+        </ion-label>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-text>
+          <ion-card-title>Responsable de servicios auxiliares en cocina</ion-card-title>
+          <ion-card-subtitle color="primary">03/2018 – 03/2019</ion-card-subtitle>
+        </ion-text>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-label>
+          <p color="dark">Restaurante "LULY</p>
+          <ion-text color="medium">
+            <p>Lavar vajilla, preparar la zona de cocina antes de los servicios,
+              preparar las mesas para la atención al cliente</p>
+
+          </ion-text>
+        </ion-label>
+      </ion-card-content>
+    </ion-card>
+  </ion-infinite-scroll>
 </ion-content>
